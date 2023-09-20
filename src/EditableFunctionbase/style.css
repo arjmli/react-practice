@@ -1,0 +1,32 @@
+.global {
+    font-family: Helvetica, sans-serif;
+}
+
+.btn {
+    all: unset;
+    cursor: pointer;
+    margin: 12px;
+    font-size: 14px;
+    text-align: center;
+    color: rgb(66, 149, 227);
+}
+
+.text-field-span {
+    width: 600px;
+    font-size: 14px;
+    padding: 6px 18px;
+}
+
+.text-field-input {
+    all: unset;
+    padding: 6px 18px;
+    font-size: 14px;
+    border: 1px solid #5555557c;
+    border-radius: 8px;
+    border-radius: 8px;
+}
+
+.text-field__input:focus {
+    outline: none;
+}
+
